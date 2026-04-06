@@ -47,7 +47,7 @@ h2 {
 
 h2::after {
   color: #444444;
-  content: 'TOP';
+  content: "TOP";
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
