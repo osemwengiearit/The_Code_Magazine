@@ -137,8 +137,13 @@
       <button>💖 Like</button>
 
       <footer>
-        <p id="copyright">copyright &copy;2022 The Code Magazine</p>
+        <p id="copyright">
+          Copyright &copy; <span id="year"></span> The Code Magazine
+        </p>
       </footer>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </div>
   </body>
 </html>
